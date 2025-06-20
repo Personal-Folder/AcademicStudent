@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSAppTransportSecurity</key>
+		<dict>
+    		<key>NSAllowsArbitraryLoads</key>
+    		<true/>
+		</dict>
+	<key>FirebaseAppDelegateProxyEnabled</key>
+	<false/>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>Academic Student</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Academic Student</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(FLUTTER_BUILD_NAME)</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>$(FLUTTER_BUILD_NUMBER)</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+    	<key>NSAllowsArbitraryLoads</key>
+    	<true/>
+	</dict>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+  		<string>fetch</string>
+  		<string>remote-notification</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+	<key>CADisableMinimumFrameDurationOnPhone</key>
+	<true/>
+	<key>UIApplicationSupportsIndirectInputEvents</key>
+	<true/>
+	<key>UIBackgroundModes</key>
+	<array>
+   <string>fetch</string>
+   <string>remote-notification</string>
+	</array>
+	<key>io.flutter.embedded_views_preview</key>
+<string>YES</string>
+<key>NSAppTransportSecurity</key>
+<dict>
+  <key>NSAllowsArbitraryLoads</key> <true/>
+  <key>NSAllowsArbitraryLoadsInWebContent</key> <true/>
+  <key>NSAllowsLocalNetworking</key> <true/>
+  
+</dict>
+<key>NSCalendarsUsageDescription</key>
+<string>This app needs access to your calendars to schedule events and reminders.</string>
+
+<key>NSContactsUsageDescription</key>
+<string>This app needs access to your contacts to provide seamless integration with your address book.</string>
+
+<key>NSBluetoothPeripheralUsageDescription</key>
+<string>This app needs access to Bluetooth peripherals to connect and interact with nearby devices.</string>
+
+<key>NSAppleMusicUsageDescription</key>
+<string>This app needs access to your Apple Music library to provide personalized music recommendations.</string>
+
+<key>NSMotionUsageDescription</key>
+<string>This app needs access to motion data to provide accurate fitness tracking and activity analysis.</string>
+
+<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+<string>This app needs continuous access to your location to provide location-based services and navigation even when running in the background and when in use.</string>
+
+<key>NSLocationWhenInUseUsageDescription</key>
+<string>This app needs access to your location when the app is in use to provide location-based services and features.</string>
+
+<key>NSBluetoothAlwaysUsageDescription</key>
+<string>This app needs continuous access to Bluetooth to provide seamless connectivity and interaction with Bluetooth devices even when running in the background.</string>
+
+<key>NSSpeechRecognitionUsageDescription</key>
+<string>This app needs access to speech recognition to transcribe voice commands and provide voice-controlled features.</string>
+        <key>NSPhotoLibraryUsageDescription</key>
+        <string>This app requires access to the photo library.</string>
+        <key>NSMicrophoneUsageDescription</key>
+        <string>This app does not require access to the microphone.</string>
+        <key>NSCameraUsageDescription</key>
+        <string>This app requires access to the camera.</string>
+
+<key>LSApplicationQueriesSchemes</key>
+<array>
+  <string>sms</string>
+  <string>tel</string>
+  <string>mailto</string>
+  <string>http</string>
+  <string>whatsapp</string>
+  <string>whatsapp-business</string>
+
+</array>
+
+<key>CFBundleURLTypes</key>
+<array>
+    <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+            <string>com.googleusercontent.apps.947786470894-f0967ihdkhccu1jet1r6m839pushs3s5</string>
+        </array>
+    </dict>
+</array>
+</dict>
+
+</plist>
